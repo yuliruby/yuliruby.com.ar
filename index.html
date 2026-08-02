@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>YULIRUBY — Moda elegante y femenina</title>
+  <meta name="description" content="YULIRUBY — Colecciones de moda femenina, elegante y con estilo. Descubre nuestras piezas exclusivas." />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">YULIRUBY</a>
+      <nav class="nav">
+        <a href="#coleccion">Colección</a>
+        <a href="#lookbook">Lookbook</a>
+        <a href="#sobre-nosotros">Sobre</a>
+        <a href="#contacto" class="cta">Contacto</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" aria-label="Presentación YULIRUBY">
+      <div class="hero-overlay">
+        <div class="container hero-content">
+          <h1>YULIRUBY</h1>
+          <p class="lead">Moda elegante. Femenina. Atemporal.</p>
+          <p class="sub">Diseños limitados, calidad artesanal y detalles que enamoran.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#coleccion">Ver colección</a>
+            <a class="btn ghost" href="#lookbook">Ver lookbook</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="sobre-nosotros" class="about container">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>Acerca de YULIRUBY</h2>
+          <p>YULIRUBY nace de la pasión por la elegancia femenina. Cada prenda es diseñada pensando en líneas limpias, telas lujosas y acabados que elevan tu estilo diario.</p>
+          <ul class="bullets">
+            <li>Ediciones limitadas</li>
+            <li>Materiales sostenibles</li>
+            <li>Producción responsable</li>
+          </ul>
+          <a class="btn outline" href="#contacto">Conoce más</a>
+        </div>
+        <div class="about-image" role="img" aria-label="Diseño de moda YULIRUBY" style="background-image: url('https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=60');"></div>
+      </div>
+    </section>
+
+    <!-- Colección -->
+    <section id="coleccion" class="collection container">
+      <h2 class="section-title">Colección Primavera</h2>
+      <p class="section-sub">Piezas seleccionadas con tejidos suaves y siluetas femeninas.</p>
+
+      <div class="cards-grid">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1520975917760-65f2fda9a6c9?auto=format&fit=crop&w=900&q=60" alt="Vestido rosa elegante">
+          <div class="card-body">
+            <h3>Vestido Rosé</h3>
+            <p class="price">€169</p>
+            <a class="btn small" href="#">Comprar</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1549388604-817d15aa0110?auto=format&fit=crop&w=900&q=60" alt="Blusa satinada">
+          <div class="card-body">
+            <h3>Blusa Satin</h3>
+            <p class="price">€89</p>
+            <a class="btn small" href="#">Comprar</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1463100099107-aa0980c362e6?auto=format&fit=crop&w=900&q=60" alt="Falda midi">
+          <div class="card-body">
+            <h3>Falda Midi</h3>
+            <p class="price">€99</p>
+            <a class="btn small" href="#">Comprar</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Lookbook -->
+    <section id="lookbook" class="lookbook">
+      <div class="container">
+        <h2 class="section-title">Lookbook</h2>
+        <p class="section-sub">Inspírate con combinaciones y estilos.</p>
+
+        <div class="look-grid">
+          <div class="look" style="background-image: url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=60');"></div>
+          <div class="look" style="background-image: url('https://images.unsplash.com/photo-1495121605193-b116b5b09f5b?auto=format&fit=crop&w=1200&q=60');"></div>
+          <div class="look" style="background-image: url('https://images.unsplash.com/photo-1520975925546-7b2a1b9f2f2a?auto=format&fit=crop&w=1200&q=60');"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter / Contact -->
+    <section id="contacto" class="contact container">
+      <div class="contact-grid">
+        <div class="contact-form">
+          <h2>Contacto y pedidos especiales</h2>
+          <p>¿Tienes una consulta o quieres una pieza a medida? Escríbenos.</p>
+          <form action="#" method="post" novalidate>
+            <label>
+              Nombre
+              <input type="text" name="nombre" required placeholder="Tu nombre">
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required placeholder="tu@correo.com">
+            </label>
+            <label>
+              Mensaje
+              <textarea name="mensaje" rows="5" placeholder="Cuéntanos..."></textarea>
+            </label>
+            <button class="btn primary" type="submit">Enviar</button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h3>Visítanos</h3>
+          <p>Showroom por cita - Ciudad / País</p>
+          <h3>Redes</h3>
+          <p>
+            <a href="#" class="link">Instagram</a> ·
+            <a href="#" class="link">Pinterest</a>
+          </p>
+          <h3>Horario</h3>
+          <p>Lun - Vie: 10:00 - 18:00</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <strong>YULIRUBY</strong> 2026 · Todos los derechos reservados</p>
+      <nav class="footer-nav">
+        <a href="#">Términos</a>
+        <a href="#">Privacidad</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Optional tiny script for mobile menu -->
+  <script>
+    const btn = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav');
+    btn?.addEventListener('click', () => {
+      nav.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
